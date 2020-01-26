@@ -1,3 +1,27 @@
 // Place all the styles related to the Tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+  background-color: #fccde2;
+  padding: 40px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  min-height: 80vh;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+
+  h1 {
+    text-align: center;
+  }
+
+  .task-card {
+
+  }
+}
